@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Caterxpert Test Automation Test Suite">
+<listeners>
+<listener class-name="com.syena.cxp.extendreportListener.ExtentReporterNG"/>
+</listeners>
+ <test name = "Caterxpert Regression Test Cases">
+<classes>
+<class name ="com.syena.cxp.testcases.LoginPageTest"/>
+<class name ="com.syena.cxp.testcases.SuperadminPageTest"/>
+<class name ="com.syena.cxp.testcases.HomePageTest"/>
+<class name ="com.syena.cxp.testcases.SalesPageTest"/>
+<class name ="com.syena.cxp.testcases.NewEventTest"/>
+<class name="com.syena.cxp.testcases.LogOutTest"/> 
+</classes>
+</test>
+</suite> 
